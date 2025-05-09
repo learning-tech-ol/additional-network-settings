@@ -1,0 +1,46 @@
+.main-container{
+	max-width: 1400px;
+}
+
+
+p{
+    font-size: 1rem;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-block: 5px;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+  
+summary::after {
+    content: "\f343";
+    font-family: dashicons;
+    width: 18px; 
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+  
+details[open] > summary::after {
+    transform: rotate(180deg);
+}
+
+details[open] > summary{
+    border-bottom: none;
+}
+
+details[open] > .details-inner{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.details-inner{
+    border-bottom: none;
+}
