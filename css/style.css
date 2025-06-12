@@ -2,11 +2,11 @@
 	max-width: 1400px;
 }
 
-p{
+.wp-admin .wpbody-content .main-container p{
     font-size: 1rem;
 }
 
-summary {
+.wp-admin .wpbody-content .main-container summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,11 +14,11 @@ summary {
     padding-block: 5px;
 }
 
-summary:hover{
+.wp-admin .wpbody-content .main-container summary:hover{
     cursor: pointer;
 }
   
-summary::after {
+.wp-admin .wpbody-content .main-container summary::after {
     content: "\f343";
     font-family: dashicons;
     width: 18px; 
@@ -27,19 +27,19 @@ summary::after {
     transition: 0.2s;
 }
   
-details[open] > summary::after {
+.wp-admin .wpbody-content .main-container details[open] > summary::after {
     transform: rotate(180deg);
 }
 
-details[open] > summary{
+.wp-admin .wpbody-content .main-container details[open] > summary{
     border-bottom: none;
 }
 
-details[open] > .details-inner{
+.wp-admin .wpbody-content .main-container details[open] > .details-inner{
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
 }
 
-.details-inner{
+.wp-admin .wpbody-content .main-container .details-inner{
     border-bottom: none;
 }
