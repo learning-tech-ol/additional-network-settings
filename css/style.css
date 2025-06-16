@@ -1,12 +1,12 @@
-.main-container{
+.wp-admin .main-container{
 	max-width: 1400px;
 }
 
-.wp-admin .wpbody-content .main-container p{
+.wp-admin .main-container p{
     font-size: 1rem;
 }
 
-.wp-admin .wpbody-content .main-container summary {
+.wp-admin .main-container summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,11 +14,11 @@
     padding-block: 5px;
 }
 
-.wp-admin .wpbody-content .main-container summary:hover{
+.wp-admin .main-container summary:hover{
     cursor: pointer;
 }
   
-.wp-admin .wpbody-content .main-container summary::after {
+.wp-admin .main-container summary::after {
     content: "\f343";
     font-family: dashicons;
     width: 18px; 
@@ -27,19 +27,19 @@
     transition: 0.2s;
 }
   
-.wp-admin .wpbody-content .main-container details[open] > summary::after {
+.wp-admin .main-container details[open] > summary::after {
     transform: rotate(180deg);
 }
 
-.wp-admin .wpbody-content .main-container details[open] > summary{
+.wp-admin .main-container details[open] > summary{
     border-bottom: none;
 }
 
-.wp-admin .wpbody-content .main-container details[open] > .details-inner{
+.wp-admin .main-container details[open] > .details-inner{
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
 }
 
-.wp-admin .wpbody-content .main-container .details-inner{
+.wp-admin .main-container .details-inner{
     border-bottom: none;
 }
