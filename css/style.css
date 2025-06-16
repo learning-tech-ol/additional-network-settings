@@ -19,7 +19,7 @@
 }
   
 .wp-admin .main-container summary::after {
-    content: "\f343";
+    content: "\f347";
     font-family: dashicons;
     width: 18px; 
     font-size: 18px;
